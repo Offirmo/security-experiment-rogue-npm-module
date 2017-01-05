@@ -6,7 +6,7 @@ In the context of my current mission, I'm doing research on JS security and how 
 This is a demo for a presentation to my company.
 
 ## Details
-This module, once required (expose an innocent «hello world» method),
+This module, once required (exposes an innocent «hello world» method),
 will try to hook into JS standard API to intercept plain objects with interesting keys (aka. "password").
 It will then try to exfiltrate them via different methods.
 
@@ -14,5 +14,7 @@ This is a proof of concept. No sensitive data should be at risk BUT you'd rather
 
 Only tested in latest Chrome browser environment (this is a proof of concept !)
 
+Typescript compatible.
+
 ## Follow up
-I then like to experiment counter-measures.
+I then like to experiment counter-measures. If I have time and motivation...

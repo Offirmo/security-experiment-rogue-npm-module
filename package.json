@@ -1,9 +1,13 @@
 {
   "name": "rogue-module-do-not-install-do-not-use",
   "version": "0.0.3",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Offirmo/security-experiment-rogue-npm-module.git"
+  },
   "main": "index.js",
   "typings": "index.d.ts",
-  "license": "UNLICENSED",
   "scripts": {
     "mversion": "mversion",
     "test": "echo 'pretend'"
